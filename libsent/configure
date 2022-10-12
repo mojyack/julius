@@ -5735,6 +5735,9 @@ fi
 #	AC_DEFINE(USE_MIC)
 #	SOUNDLIB="-L/usr/opt/MME242/lib -lmme")
 #	;;
+    fake)
+    aldesc="fake mic"
+    ;;
     *)
 	aldesc="no support"
 	as_fn_error $? "mictype not supported, or specified type not exist" "$LINENO" 5
