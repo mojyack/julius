@@ -733,6 +733,7 @@ case $altype in
 #	;;
     fake)
     aldesc="fake mic"
+	AC_DEFINE(USE_MIC)
     ;;
     *)
 	aldesc="no support"
